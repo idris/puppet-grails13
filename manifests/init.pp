@@ -6,7 +6,7 @@
 class grails13 {
   include homebrew
 
-  homebrew::formula { 'grails13':
+  homebrew::formula { 'grails':
     before => Package['boxen/brews/grails'],
   }
 
